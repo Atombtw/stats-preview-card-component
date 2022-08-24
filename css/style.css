@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .ortalama {
@@ -134,6 +135,7 @@ p {
 @media (max-width: 768px) {
   .global {
     height: 100%;
+    position: relative;
   }
 
   .ortalama {
